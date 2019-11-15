@@ -80,7 +80,7 @@ dispatch()
 Чем отличаются __str__ и __repr__
 Что в Python от функционального программирования, функции первого порядка
 Алгоритмы сортировки и поиска
-Расчет их сложности алгоритмов
+Расчет сложности алгоритмов
 Паттерны - https://refactoring.guru/ru/design-patterns/python
 
 
@@ -165,6 +165,7 @@ SSH
 Telnet
 NAT
 Proxy
+ARP
 
 
 ----------------
@@ -234,7 +235,13 @@ iwsgi vs Daphne
 supervisor
 crontab
 bash, shell scripting
+
+----------------
 git
+----------------
+Git Workflow
+git rebase vs merge
+Дерево Меркла в git
 
 
 ----------------
@@ -247,7 +254,7 @@ https - зачем, как шифрует
 OWASP top 10
 Как избежать sql инъекций в Django(csrf token)
 Зачем соль и когда она добавляется в токен, пароль
-authentication and authorization
+identification / authentication / authorization 
 password security
 Радужные таблицы
 
