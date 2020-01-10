@@ -240,6 +240,7 @@ bash, shell scripting
 git
 ----------------
 Git Workflow  
+[Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
 git rebase vs merge  
 Дерево Меркла в git  
 
