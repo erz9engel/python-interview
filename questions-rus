@@ -76,12 +76,12 @@ dispatch()
 Встроенные декораторы @classmethod и @staticmethod
 Зачем нужны magic методы
 Какие есть magic методы
-Чем отличается __new__ и __init__ (https://habr.com/ru/post/480022/)
+[Чем отличается __new__ и __init__](https://habr.com/ru/post/480022/)
 Чем отличаются __str__ и __repr__
 Что в Python от функционального программирования, функции первого порядка
 Алгоритмы сортировки и поиска
-Расчет сложности алгоритмов
-Паттерны - https://refactoring.guru/ru/design-patterns/python
+[Расчет сложности алгоритмов](https://dou.ua/lenta/articles/what-you-should-know-about-algorithms/)
+[Паттерны](https://refactoring.guru/ru/design-patterns/python/)
 
 
 ----------------
@@ -159,7 +159,7 @@ HTTP - структура, методы, из чего состоит запро
 Примеры использования OPTIONS, HEAD, TRACE, CONNECT
 Что такое идемпотентность, какие методы HTTP идемпотентны
 Что такое сокеты? TCP vs UDP
-Webrtc, peer-to-peer
+WebRTC, peer-to-peer
 SSL/TLS
 SSH
 Telnet
@@ -175,7 +175,7 @@ Frameworks
 MVC архитектура
 Чем отличается Django и Flask
 Как в Django хранятся сессии
-Какой путь проходит request в Django
+[Какой путь проходит request в Django](https://www.youtube.com/watch?v=fxs5dFB3xD4)
 Как работает middleware в Django
 Можно ли middleware использовать для изменения response
 Как работает select_related и в чем его преимущества
@@ -188,7 +188,7 @@ django messages
 django mixins
 django class-based views vs function-based views
 django services(serviceLayer)
-что нового в Django?
+Что нового в Django?
 GeoDjango
 Jinja2, Django template system
 aiohttp - назначение, принцип, клиент и сервер, uvloop
@@ -220,7 +220,7 @@ jenkins
 terraform
 ansible
 nginx - какие задачи решает, возможности
-Docker: layers, volume, image, container (https://www.youtube.com/watch?v=fqMOX6JJhGo)
+[Docker: layers, volume, image, container](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 Что описывается в Dockerfile и что в Compose
 Стоит ли использовать Docker в локальной разработке - плюсы и минусы
 Docker vs Virtualbox vs Virtualenv
