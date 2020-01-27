@@ -29,7 +29,7 @@ linkedlist
 Коллизии в dict  
 хешируемы объект, что такое хеш  
 Что такое куча и стек  
-Python Scopes (LGEB)  
+[Python Scopes (LGEB)](https://www.geeksforgeeks.org/scope-resolution-in-python-legb-rule/)  
 Как работает память в Python  
 Как работает garbage collector, подсчет ссылок на объект refcount  
 Что такое декоратор, как сделать свой декоратор  
