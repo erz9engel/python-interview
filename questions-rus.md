@@ -50,7 +50,9 @@ Concurrency and thread management, synchronization methods (locks, re-entrant lo
 Что такое генератор как он работает  
 В чем преимущества и недостатки генераторов  
 Как работают comprehensions - list comprehensions, dict-comprehensions, set-comprehensions  
-Зачем нужны менеджеры контекста, как написать свой менеджер контекста и как обработать ошибку при закрытии  
+Зачем нужны менеджеры контекста  
+[Какие есть способы написать свой менеджер контекста](https://python-scripts.com/contextlib)  
+Как обработать ошибку при закрытии менеджера контекста  
 Чем отличается is и ==  
 [small integer caching](https://realpython.com/lessons/small-integer-caching/)  
 Почему None лучше сравнивать с помощью is  
