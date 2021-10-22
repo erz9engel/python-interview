@@ -9,9 +9,10 @@ pep8
 Стандартная библиотека - что чаще всего используете(sys, os, re, datetime)  
 Какие библиотеки чаще всего используете  
 Что есть в модуле functools  
-Что есть в модуле collection  
+Что есть в модуле collection 
+Как работают namedtuple, defaultdict, ordereddict, frozenset
 Модуль copy, чем отличается copy и deepcopy  
-Что нового в Python 3.8  
+Что нового в последних версиях Python  
 Почему Python скриптовый  
 Почему Python мультипарадигмальный  
 Какие есть типы данных  
@@ -31,6 +32,7 @@ linkedlist
 Что такое куча и стек  
 [Python Scopes (LGEB)](https://www.geeksforgeeks.org/scope-resolution-in-python-legb-rule/)  
 Как работает память в Python  
+Как работает и зачем нужен __slots__
 Как работает garbage collector, подсчет ссылок на объект refcount  
 Что такое декоратор, как сделать свой декоратор  
 Как передать декоратору свои параметры  
@@ -41,7 +43,10 @@ linkedlist
 Deadlock problem, Thread Pool, Producer-Consumer model, Greenlets, microthreads, coroutines.  
 Concurrency and thread management, synchronization methods (locks, re-entrant locks, semaphores, events, shared memory, message queues)  
 Чем отличаются threading, multiprocessing и async  
-Что есть в модуле async  
+Что есть в модуле asyncio
+Зачем нужен event_loop
+Что такое корутина
+asyncio.gather vs asyncio.wait
 Как наладить обмен данными между процессами  
 Как передать Python обьект между процессами pickling/unpickling  
 Что такое итератор  
@@ -69,7 +74,7 @@ lambda функции
 Unicode  
 Регулярные выражения  
 dispatch()  
-Наследование в Python (тут же про MRO)  
+Наследование в Python  
 Что такое инкапсуляция и зачем она нужна  
 Какие примеры полиморфизма в Python  
 Принципы ООП  
@@ -225,6 +230,7 @@ ansible
 nginx - какие задачи решает, возможности  
 [Docker: layers, volume, image, container](https://www.youtube.com/watch?v=fqMOX6JJhGo)  
 Что описывается в Dockerfile и что в Compose  
+Оптимизация Dockerfile/docker-compose
 Стоит ли использовать Docker в локальной разработке - плюсы и минусы  
 Docker vs Virtualbox vs Virtualenv  
 DMZ + VPC инфраструктура  
@@ -244,6 +250,7 @@ git
 ----------------
 Git Workflow  
 [Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
+Trunk-based Development
 git rebase vs merge  
 Дерево Меркла в git  
 
