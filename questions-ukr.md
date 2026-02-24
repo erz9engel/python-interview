@@ -29,7 +29,7 @@ Linked list
 Колізії в dict
 Хешований об’єкт, що таке хеш
 Що таке купа і стек
-Python Scopes (LEGB)
+[Python Scopes (LGEB)](https://www.geeksforgeeks.org/scope-resolution-in-python-legb-rule/)  
 Як працює пам’ять у Python
 Як працює і навіщо потрібен **slots**
 Як працює garbage collector, підрахунок посилань на об’єкт (refcount)
@@ -58,7 +58,7 @@ asyncio.gather vs asyncio.wait
 Які є способи написати власний менеджер контексту
 Як обробити помилку під час закриття менеджера контексту
 Чим відрізняються is і ==
-Small integer caching
+[small integer caching](https://realpython.com/lessons/small-integer-caching/) 
 Чому None краще порівнювати за допомогою is
 Як зробити власний об’єкт порівнюваним
 Duck typing у Python
@@ -249,7 +249,7 @@ bash, shell scripting
 ## Git
 
 Git workflow
-Git branching model
+[Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
 Trunk-based Development
 git rebase vs merge
 Дерево Меркла в Git

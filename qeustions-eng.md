@@ -29,7 +29,7 @@ What can be a dict key
 Collisions in dict
 Hashable object, what a hash is
 What heap and stack are
-Python Scopes (LEGB)
+[Python Scopes (LGEB)](https://www.geeksforgeeks.org/scope-resolution-in-python-legb-rule/)  
 How memory works in Python
 How **slots** works and why it is needed
 How the garbage collector works, reference counting (refcount)
@@ -58,7 +58,7 @@ Why context managers are needed
 Ways to implement your own context manager
 How to handle an error when closing a context manager
 Difference between is and ==
-Small integer caching
+[small integer caching](https://realpython.com/lessons/small-integer-caching/) 
 Why None should be compared using is
 How to make your own object comparable
 Duck typing in Python
@@ -249,7 +249,7 @@ bash, shell scripting
 ## Git
 
 Git workflow
-Git branching model
+[Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
 Trunk-based Development
 git rebase vs merge
 Merkle tree in Git

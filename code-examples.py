@@ -1,24 +1,24 @@
---------------------------------
-1. Context Manager
---------------------------------
+# --------------------------------
+# 1. Context Manager
+# --------------------------------
 
 import sqlite3
 
 class DataConn:
-    """Менеджера для подключения к базе"""
+    """Manager for connecting to a database"""
     def __init__(self, db_name):
         self.db_name = db_name
 
     def __enter__(self):
-        """Открываем подключение с базой данных"""
+        """Open a database connection"""
         self.conn = sqlite3.connect(self.db_name)
         return self.conn
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        """Закрываем подключение"""
+        """Close the connection"""
         self.conn.close()
         if exc_val:
-            """Обрабатываем ошибку закрытия"""
+            """Handle closing error"""
             raise
 
 if __name__ == '__main__':
@@ -28,34 +28,34 @@ if __name__ == '__main__':
         cursor = conn.cursor()
 
 
---------------------------------
-2. Singleton
---------------------------------
+# --------------------------------
+# 2. Singleton
+# --------------------------------
 
-Основная мысль:
-1. Гарантирует, что у класса есть только один экземпляр!
-2. Предоставляет глобальную точку доступа
+# Main idea:
+# 1. Ensures that a class has only one instance.
+# 2. Provides a global access point.
 
 class Singleton(object):
 
     def __new__(cls):
-        # Перекрываем создание объекта класса
+        # Override object creation
         if not hasattr(cls, 'instance'):
             cls.instance = super(Singleton, cls).__new__(cls)
         return cls.instance
 
 
 s = Singleton()
-print id(a)
-print s
+print(id(s))
+print(s)
 
 b = Singleton()
-print id(b)
-print b
+print(id(b))
+print(b)
 
-print (s is b)
+print(s is b)
 
-# Вывод:
+# Output:
 # 140425907838864
 # <__main__.Singleton object at 0x7fb7745a9f90>
 # 140425907838864
@@ -63,13 +63,13 @@ print (s is b)
 # True
 
 
---------------------------------
-3. Iterator
---------------------------------
+# --------------------------------
+# 3. Iterator
+# --------------------------------
 
 class SimpleIterator:
     def __iter__(self):
-        # возвращаем итератор чтобы использовать в цикле for
+        # Return the iterator to use in a for loop
         return self
 
     def __init__(self, limit):
@@ -88,15 +88,15 @@ for i in iter:
     print(i)
 
 
---------------------------------
-4. Generator
---------------------------------
+# --------------------------------
+# 4. Generator
+# --------------------------------
 
-Функция, содержащая yield, возвращает объект-генератор,
-а не выполняет свой код сразу.
-исполняется при каждом вызове метода __next__().
-В цикле for это делается автоматически.
-функция сохраняет значения переменных от предыдущего вызова.
+# A function that contains `yield` returns a generator object
+# instead of executing immediately.
+# It runs each time the `__next__()` method is called.
+# In a `for` loop, this happens automatically.
+# The function preserves variable values between calls.
 
 
 def gen(n):
@@ -107,19 +107,18 @@ def gen(n):
 g = gen(5)
 next(g)
 
-# или
+# or
 
 for n in gen(5):
     print(n)
 
 
---------------------------------
-5. Decorator
---------------------------------
+# --------------------------------
+# 5. Decorator
+# --------------------------------
 
-Декораторы — "обёртки", которые дают возможность
-изменить поведение функции, не изменяя её код.
-
+# Decorators are “wrappers” that allow changing
+# a function’s behavior without modifying its code.
 
 def decorator(func):
 
@@ -132,7 +131,7 @@ def decorator(func):
 def func1():
     print('world')
 
-# или
+# or
 
 @decorator
 def func2():
@@ -140,16 +139,15 @@ def func2():
 
 
 decorator(func1)()
-# или
+# or
 func2()
 
 # >> hello
 # >> world
 
-
---------------------------------
-6. Decorator с параметрами
---------------------------------
+# --------------------------------
+# 6. Decorator with parameters
+# --------------------------------
 
 def param_decorator(word):
     def decorator(func):
